@@ -65,7 +65,7 @@ namespace ToolWindows
 		#endregion
 		
 		#region Editor Window Methods
-		[MenuItem("Window/Scene Switch Window", false, 1)]
+		[MenuItem("Window/General/Scene Switch Window", false)]
 		private static void Open()
 		{
 			SceneSwitchWindow window = GetWindow<SceneSwitchWindow>();
